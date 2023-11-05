@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F501A072AC93D8600E5F8EC /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F501A062AC93D8600E5F8EC /* DisplayView.swift */; };
+		3F501A092AC93FDE00E5F8EC /* MenuBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F501A082AC93FDE00E5F8EC /* MenuBarIcon.swift */; };
+		3F501A0B2AC9559400E5F8EC /* SoftwareDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F501A0A2AC9559400E5F8EC /* SoftwareDetailService.swift */; };
+		3F501A0D2AC955F300E5F8EC /* SoftwareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F501A0C2AC955F300E5F8EC /* SoftwareModel.swift */; };
+		3F501A0F2AC96B0E00E5F8EC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F501A0E2AC96B0E00E5F8EC /* SearchBarView.swift */; };
+		3F7B005A2AC23E5900402CD7 /* gFleetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00592AC23E5900402CD7 /* gFleetApp.swift */; };
+		3F7B005C2AC23E5900402CD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B005B2AC23E5900402CD7 /* ContentView.swift */; };
+		3F7B005E2AC23E5B00402CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B005D2AC23E5B00402CD7 /* Assets.xcassets */; };
+		3F7B00612AC23E5B00402CD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B00602AC23E5B00402CD7 /* Preview Assets.xcassets */; };
+		3F7B006C2AC23E8000402CD7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B006B2AC23E8000402CD7 /* HomeViewModel.swift */; };
+		3F7B00712AC23F2E00402CD7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00702AC23F2E00402CD7 /* HomeView.swift */; };
+		3F7B00742AC2462A00402CD7 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00732AC2462A00402CD7 /* PreviewProvider.swift */; };
+		3F7B00762AC246C900402CD7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00752AC246C900402CD7 /* Color.swift */; };
+		3F7B00782AC2671200402CD7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00772AC2671200402CD7 /* MenuView.swift */; };
+		3F7B007A2AC2697000402CD7 /* Backrgound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00792AC2696F00402CD7 /* Backrgound.swift */; };
+		3F7B007C2AC274F800402CD7 /* PoliciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B007B2AC274F800402CD7 /* PoliciesView.swift */; };
+		3F7B007F2AC27B0000402CD7 /* QueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B007E2AC27B0000402CD7 /* QueryManager.swift */; };
+		3F7B00832AC27BB600402CD7 /* DeviceDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00822AC27BB600402CD7 /* DeviceDetailService.swift */; };
+		3F7B00852AC27BF300402CD7 /* NetworkDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00842AC27BF300402CD7 /* NetworkDetailService.swift */; };
+		3F7B008C2AC27CD500402CD7 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B008B2AC27CD500402CD7 /* MenuViewModel.swift */; };
+		3F7B008E2AC28F6800402CD7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B008D2AC28F6800402CD7 /* DetailsView.swift */; };
+		3F7B00902AC28F7500402CD7 /* SoftwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B008F2AC28F7500402CD7 /* SoftwareView.swift */; };
+		3F7B00922AC3AEFD00402CD7 /* PolicyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00912AC3AEFD00402CD7 /* PolicyModel.swift */; };
+		3F7B00942AC3B4F400402CD7 /* ConfigurationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00932AC3B4F400402CD7 /* ConfigurationModel.swift */; };
+		3F7B00962AC3CE5200402CD7 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00952AC3CE5200402CD7 /* DeviceModel.swift */; };
+		3F7B00982AC3CEB400402CD7 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00972AC3CEB400402CD7 /* NetworkModel.swift */; };
+		3F7B009A2AC3E63D00402CD7 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B00992AC3E63D00402CD7 /* ConfigurationManager.swift */; };
+		3F7B009C2AC3E6C100402CD7 /* ConfigurationDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B009B2AC3E6C100402CD7 /* ConfigurationDetailService.swift */; };
+		3F7B009E2AC63DDA00402CD7 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B009D2AC63DDA00402CD7 /* Date.swift */; };
+		3FA8EF152AC6722300AADE72 /* ReloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8EF142AC6722300AADE72 /* ReloadButton.swift */; };
+		3FACBB0E2AC7CCBB00AF0DDC /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACBB0D2AC7CCBB00AF0DDC /* NotificationManager.swift */; };
+		3FACBB102AC7E07B00AF0DDC /* DeviceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACBB0F2AC7E07B00AF0DDC /* DeviceInfoView.swift */; };
+		3FACBB122AC89DD000AF0DDC /* gfleet-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FACBB112AC89DD000AF0DDC /* gfleet-config.plist */; };
+		3FACBB142AC8B2A100AF0DDC /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACBB132AC8B2A100AF0DDC /* InfoButton.swift */; };
+		3FACBB162AC8B9E100AF0DDC /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACBB152AC8B9E100AF0DDC /* IssuesView.swift */; };
+		3FACBB182AC8F4B400AF0DDC /* IconTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACBB172AC8F4B400AF0DDC /* IconTile.swift */; };
+		3FACBB1A2AC8F95800AF0DDC /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACBB192AC8F95800AF0DDC /* ActionButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F501A062AC93D8600E5F8EC /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		3F501A082AC93FDE00E5F8EC /* MenuBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIcon.swift; sourceTree = "<group>"; };
+		3F501A0A2AC9559400E5F8EC /* SoftwareDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareDetailService.swift; sourceTree = "<group>"; };
+		3F501A0C2AC955F300E5F8EC /* SoftwareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareModel.swift; sourceTree = "<group>"; };
+		3F501A0E2AC96B0E00E5F8EC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		3F7B00562AC23E5900402CD7 /* gFleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gFleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7B00592AC23E5900402CD7 /* gFleetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gFleetApp.swift; sourceTree = "<group>"; };
+		3F7B005B2AC23E5900402CD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F7B005D2AC23E5B00402CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7B00602AC23E5B00402CD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F7B00622AC23E5B00402CD7 /* gFleet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gFleet.entitlements; sourceTree = "<group>"; };
+		3F7B006B2AC23E8000402CD7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3F7B00702AC23F2E00402CD7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F7B00732AC2462A00402CD7 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		3F7B00752AC246C900402CD7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3F7B00772AC2671200402CD7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		3F7B00792AC2696F00402CD7 /* Backrgound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backrgound.swift; sourceTree = "<group>"; };
+		3F7B007B2AC274F800402CD7 /* PoliciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliciesView.swift; sourceTree = "<group>"; };
+		3F7B007E2AC27B0000402CD7 /* QueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryManager.swift; sourceTree = "<group>"; };
+		3F7B00822AC27BB600402CD7 /* DeviceDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailService.swift; sourceTree = "<group>"; };
+		3F7B00842AC27BF300402CD7 /* NetworkDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDetailService.swift; sourceTree = "<group>"; };
+		3F7B008B2AC27CD500402CD7 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		3F7B008D2AC28F6800402CD7 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		3F7B008F2AC28F7500402CD7 /* SoftwareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareView.swift; sourceTree = "<group>"; };
+		3F7B00912AC3AEFD00402CD7 /* PolicyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyModel.swift; sourceTree = "<group>"; };
+		3F7B00932AC3B4F400402CD7 /* ConfigurationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationModel.swift; sourceTree = "<group>"; };
+		3F7B00952AC3CE5200402CD7 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		3F7B00972AC3CEB400402CD7 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		3F7B00992AC3E63D00402CD7 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		3F7B009B2AC3E6C100402CD7 /* ConfigurationDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationDetailService.swift; sourceTree = "<group>"; };
+		3F7B009D2AC63DDA00402CD7 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		3FA8EF142AC6722300AADE72 /* ReloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadButton.swift; sourceTree = "<group>"; };
+		3FACBB0D2AC7CCBB00AF0DDC /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3FACBB0F2AC7E07B00AF0DDC /* DeviceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
+		3FACBB112AC89DD000AF0DDC /* gfleet-config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gfleet-config.plist"; sourceTree = "<group>"; };
+		3FACBB132AC8B2A100AF0DDC /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
+		3FACBB152AC8B9E100AF0DDC /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
+		3FACBB172AC8F4B400AF0DDC /* IconTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTile.swift; sourceTree = "<group>"; };
+		3FACBB192AC8F95800AF0DDC /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7B00532AC23E5900402CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7B004D2AC23E5900402CD7 = {
+			isa = PBXGroup;
+			children = (
+				3FACBB112AC89DD000AF0DDC /* gfleet-config.plist */,
+				3F7B00582AC23E5900402CD7 /* gFleet */,
+				3F7B00572AC23E5900402CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7B00572AC23E5900402CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00562AC23E5900402CD7 /* gFleet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7B00582AC23E5900402CD7 /* gFleet */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00592AC23E5900402CD7 /* gFleetApp.swift */,
+				3F7B005B2AC23E5900402CD7 /* ContentView.swift */,
+				3F7B00682AC23E6400402CD7 /* Core */,
+				3F7B00722AC2461900402CD7 /* Extensions */,
+				3F7B00862AC27C3700402CD7 /* Models */,
+				3F7B006D2AC23E8E00402CD7 /* Services */,
+				3F7B007D2AC27AF100402CD7 /* Utilities */,
+				3F7B005D2AC23E5B00402CD7 /* Assets.xcassets */,
+				3F7B00622AC23E5B00402CD7 /* gFleet.entitlements */,
+				3F7B005F2AC23E5B00402CD7 /* Preview Content */,
+			);
+			path = gFleet;
+			sourceTree = "<group>";
+		};
+		3F7B005F2AC23E5B00402CD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00602AC23E5B00402CD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F7B00682AC23E6400402CD7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8EF132AC6720700AADE72 /* Components */,
+				3F7B00872AC27C8300402CD7 /* Home */,
+				3F7B00882AC27CAE00402CD7 /* Menu */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3F7B00692AC23E6900402CD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00702AC23F2E00402CD7 /* HomeView.swift */,
+				3FACBB0F2AC7E07B00AF0DDC /* DeviceInfoView.swift */,
+				3F7B007B2AC274F800402CD7 /* PoliciesView.swift */,
+				3F7B008D2AC28F6800402CD7 /* DetailsView.swift */,
+				3F7B008F2AC28F7500402CD7 /* SoftwareView.swift */,
+				3FACBB152AC8B9E100AF0DDC /* IssuesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F7B006A2AC23E6F00402CD7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B006B2AC23E8000402CD7 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3F7B006D2AC23E8E00402CD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B009B2AC3E6C100402CD7 /* ConfigurationDetailService.swift */,
+				3F7B00822AC27BB600402CD7 /* DeviceDetailService.swift */,
+				3F7B00842AC27BF300402CD7 /* NetworkDetailService.swift */,
+				3F501A0A2AC9559400E5F8EC /* SoftwareDetailService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F7B00722AC2461900402CD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00792AC2696F00402CD7 /* Backrgound.swift */,
+				3F7B00752AC246C900402CD7 /* Color.swift */,
+				3F7B009D2AC63DDA00402CD7 /* Date.swift */,
+				3F7B00732AC2462A00402CD7 /* PreviewProvider.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F7B007D2AC27AF100402CD7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00992AC3E63D00402CD7 /* ConfigurationManager.swift */,
+				3FACBB0D2AC7CCBB00AF0DDC /* NotificationManager.swift */,
+				3F7B007E2AC27B0000402CD7 /* QueryManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3F7B00862AC27C3700402CD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00932AC3B4F400402CD7 /* ConfigurationModel.swift */,
+				3F7B00952AC3CE5200402CD7 /* DeviceModel.swift */,
+				3F7B00972AC3CEB400402CD7 /* NetworkModel.swift */,
+				3F7B00912AC3AEFD00402CD7 /* PolicyModel.swift */,
+				3F501A0C2AC955F300E5F8EC /* SoftwareModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F7B00872AC27C8300402CD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B006A2AC23E6F00402CD7 /* ViewModels */,
+				3F7B00692AC23E6900402CD7 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3F7B00882AC27CAE00402CD7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B008A2AC27CC600402CD7 /* ViewModels */,
+				3F7B00892AC27CB700402CD7 /* Views */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		3F7B00892AC27CB700402CD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B00772AC2671200402CD7 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F7B008A2AC27CC600402CD7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B008B2AC27CD500402CD7 /* MenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3FA8EF132AC6720700AADE72 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3FACBB192AC8F95800AF0DDC /* ActionButton.swift */,
+				3FACBB172AC8F4B400AF0DDC /* IconTile.swift */,
+				3FACBB132AC8B2A100AF0DDC /* InfoButton.swift */,
+				3FA8EF142AC6722300AADE72 /* ReloadButton.swift */,
+				3F501A062AC93D8600E5F8EC /* DisplayView.swift */,
+				3F501A082AC93FDE00E5F8EC /* MenuBarIcon.swift */,
+				3F501A0E2AC96B0E00E5F8EC /* SearchBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7B00552AC23E5900402CD7 /* gFleet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7B00652AC23E5B00402CD7 /* Build configuration list for PBXNativeTarget "gFleet" */;
+			buildPhases = (
+				3F7B00522AC23E5900402CD7 /* Sources */,
+				3F7B00532AC23E5900402CD7 /* Frameworks */,
+				3F7B00542AC23E5900402CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gFleet;
+			productName = gFleet;
+			productReference = 3F7B00562AC23E5900402CD7 /* gFleet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7B004E2AC23E5900402CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3F7B00552AC23E5900402CD7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F7B00512AC23E5900402CD7 /* Build configuration list for PBXProject "gFleet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7B004D2AC23E5900402CD7;
+			productRefGroup = 3F7B00572AC23E5900402CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7B00552AC23E5900402CD7 /* gFleet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7B00542AC23E5900402CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FACBB122AC89DD000AF0DDC /* gfleet-config.plist in Resources */,
+				3F7B00612AC23E5B00402CD7 /* Preview Assets.xcassets in Resources */,
+				3F7B005E2AC23E5B00402CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7B00522AC23E5900402CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8EF152AC6722300AADE72 /* ReloadButton.swift in Sources */,
+				3F7B009E2AC63DDA00402CD7 /* Date.swift in Sources */,
+				3FACBB102AC7E07B00AF0DDC /* DeviceInfoView.swift in Sources */,
+				3F7B007A2AC2697000402CD7 /* Backrgound.swift in Sources */,
+				3F7B008C2AC27CD500402CD7 /* MenuViewModel.swift in Sources */,
+				3F7B00852AC27BF300402CD7 /* NetworkDetailService.swift in Sources */,
+				3F7B00902AC28F7500402CD7 /* SoftwareView.swift in Sources */,
+				3F7B007C2AC274F800402CD7 /* PoliciesView.swift in Sources */,
+				3FACBB142AC8B2A100AF0DDC /* InfoButton.swift in Sources */,
+				3F7B00782AC2671200402CD7 /* MenuView.swift in Sources */,
+				3F501A0D2AC955F300E5F8EC /* SoftwareModel.swift in Sources */,
+				3F7B00742AC2462A00402CD7 /* PreviewProvider.swift in Sources */,
+				3F7B00762AC246C900402CD7 /* Color.swift in Sources */,
+				3F7B00982AC3CEB400402CD7 /* NetworkModel.swift in Sources */,
+				3F7B00922AC3AEFD00402CD7 /* PolicyModel.swift in Sources */,
+				3F7B009C2AC3E6C100402CD7 /* ConfigurationDetailService.swift in Sources */,
+				3F7B005C2AC23E5900402CD7 /* ContentView.swift in Sources */,
+				3F501A0B2AC9559400E5F8EC /* SoftwareDetailService.swift in Sources */,
+				3F7B006C2AC23E8000402CD7 /* HomeViewModel.swift in Sources */,
+				3F7B00712AC23F2E00402CD7 /* HomeView.swift in Sources */,
+				3F7B00942AC3B4F400402CD7 /* ConfigurationModel.swift in Sources */,
+				3FACBB182AC8F4B400AF0DDC /* IconTile.swift in Sources */,
+				3F7B007F2AC27B0000402CD7 /* QueryManager.swift in Sources */,
+				3F7B008E2AC28F6800402CD7 /* DetailsView.swift in Sources */,
+				3F7B00832AC27BB600402CD7 /* DeviceDetailService.swift in Sources */,
+				3FACBB162AC8B9E100AF0DDC /* IssuesView.swift in Sources */,
+				3F501A072AC93D8600E5F8EC /* DisplayView.swift in Sources */,
+				3F7B009A2AC3E63D00402CD7 /* ConfigurationManager.swift in Sources */,
+				3F7B005A2AC23E5900402CD7 /* gFleetApp.swift in Sources */,
+				3FACBB0E2AC7CCBB00AF0DDC /* NotificationManager.swift in Sources */,
+				3F7B00962AC3CE5200402CD7 /* DeviceModel.swift in Sources */,
+				3FACBB1A2AC8F95800AF0DDC /* ActionButton.swift in Sources */,
+				3F501A0F2AC96B0E00E5F8EC /* SearchBarView.swift in Sources */,
+				3F501A092AC93FDE00E5F8EC /* MenuBarIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F7B00632AC23E5B00402CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7B00642AC23E5B00402CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3F7B00662AC23E5B00402CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = gFleet/gFleet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gFleet/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JF84Y785B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.gFleet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F7B00672AC23E5B00402CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = gFleet/gFleet.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gFleet/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JF84Y785B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.gFleet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7B00512AC23E5900402CD7 /* Build configuration list for PBXProject "gFleet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7B00632AC23E5B00402CD7 /* Debug */,
+				3F7B00642AC23E5B00402CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7B00652AC23E5B00402CD7 /* Build configuration list for PBXNativeTarget "gFleet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7B00662AC23E5B00402CD7 /* Debug */,
+				3F7B00672AC23E5B00402CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7B004E2AC23E5900402CD7 /* Project object */;
+}

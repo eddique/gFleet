@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>organization</key>
+    <string>Gusto</string>
+    <key>policies</key>
+    <array>
+        <dict>
+            <key>id</key>
+            <string>1</string>
+            <key>title</key>
+            <string>gcorp.filevault.enabled</string>
+            <key>description</key>
+            <string>This is a test policy</string>
+            <key>query</key>
+            <string>SELECT 1 FROM disk_encryption WHERE user_uuid IS NOT "" AND filevault_status = 'on' LIMIT 1</string>
+            <key>remediationType</key>
+            <string>automatic</string>
+            <key>remediation</key>
+            <string>automatic</string>
+            <key>compliantValue</key>
+            <string>1</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>2</string>
+            <key>title</key>
+            <string>gcorp.cert.okta.a</string>
+            <key>description</key>
+            <string>This is a test policy</string>
+            <key>query</key>
+            <string>SELECT 1 FROM disk_encryption WHERE user_uuid IS NOT "" AND filevault_status = 'on' LIMIT 1</string>
+            <key>remediationType</key>
+            <string>automatic</string>
+            <key>remediation</key>
+            <string>automatic</string>
+            <key>compliantValue</key>
+            <string>1</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>3</string>
+            <key>title</key>
+            <string>gcorp.cert.okta.a.installed</string>
+            <key>description</key>
+            <string>This is a test policy</string>
+            <key>query</key>
+            <string>SELECT 1 FROM disk_encryption WHERE user_uuid IS NOT "" AND filevault_status = 'on' LIMIT 1</string>
+            <key>remediationType</key>
+            <string>automatic</string>
+            <key>remediation</key>
+            <string>automatic</string>
+            <key>compliantValue</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>4</string>
+            <key>title</key>
+            <string>gcorp.oktaverify.installed</string>
+            <key>description</key>
+            <string>This is a test policy</string>
+            <key>query</key>
+            <string>SELECT 1 FROM disk_encryption WHERE user_uuid IS NOT "" AND filevault_status = 'on' LIMIT 1</string>
+            <key>remediationType</key>
+            <string>automatic</string>
+            <key>remediation</key>
+            <string>automatic</string>
+            <key>compliantValue</key>
+            <string>1</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <string>5</string>
+            <key>title</key>
+            <string>gcorp.cert.security.a.installed</string>
+            <key>description</key>
+            <string>This is a test policy</string>
+            <key>query</key>
+            <string>SELECT 1 FROM disk_encryption WHERE user_uuid IS NOT "" AND filevault_status = 'on' LIMIT 1</string>
+            <key>remediationType</key>
+            <string>automatic</string>
+            <key>remediation</key>
+            <string>automatic</string>
+            <key>compliantValue</key>
+            <string>0</string>
+        </dict>
+    </array>
+</dict>
+</plist>
