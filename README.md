@@ -2,7 +2,7 @@
 <p align="center">
     <img width="400" src="./img/icon.png" alt="gFleet Logo">
 </p>
-<h2 align="center">An end user facing, SwiftUI based device health app.</h2>
+<h2 align="center">A macOS device health application for enterprise users</h2>
 <p align="center">
     <a href="https://github.com/eddique/gfleet/releases/latest"><img src="https://img.shields.io/github/v/release/eddique/gfleet.svg"></a>
     <a href="https://www.linkedin.com/in/eric-rodriguez-3a402811b/"><img src="https://img.shields.io/badge/linkedIn-connect-4777AF"></a>
