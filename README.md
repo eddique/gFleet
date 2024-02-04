@@ -86,7 +86,7 @@ Notifications for policies that are currently out of compliance
 A detailed view of the software installed on the device
 
 <p align="center">
-    <img src="./img/softare.png">
+    <img src="./img/software.png">
 </p>
 
 ## Policies
